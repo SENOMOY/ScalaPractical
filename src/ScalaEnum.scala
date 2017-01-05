@@ -3,9 +3,14 @@
   */
 
 class ScalaEnum extends Enumeration {
+  type ScalaEnum = Value
   val Club, Heart, Diamond, Spade = Value
 }
 
-object ScalaEnum extends App {
+object ScalaEnumExample extends App {
 
+  def enumFunc(e: ScalaEnum ) = {
+  println(e.values)
+  }
+  enumFunc(new ScalaEnum)
 }
