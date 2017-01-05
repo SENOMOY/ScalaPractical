@@ -9,5 +9,5 @@ object Factorial extends App{
     }
     fact(i,1)
   }
-  println(factorial(4))
+  println(factorial(3))
 }
