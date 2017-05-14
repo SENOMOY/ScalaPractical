@@ -8,7 +8,7 @@ import scala.util.Random
   */
 object ScalaFuture extends App {
 
-  // not too exciting, the result will always be 42. but more importantly, when?
+  // Not too exciting, the result will always be 22. but more importantly, when?
   println("1 - starting calculation ...")
   val f = Future {
     val sleepTime = Random.nextInt(400)
