@@ -68,4 +68,10 @@ object ListOperations extends App {
   val mul = List.tabulate( 4,5 )( _ * _ )
   println( "mul : " + mul  )
 
+  println("*********** Using range function ***********")
+  val lstr1 = List.range(1,10)
+  val lstr2 = List.range(0,10,2)
+  println(s"List range example 1: $lstr1")
+  println(s"List range example 2: $lstr2")
+
 }
