@@ -14,5 +14,9 @@ object GenericFunction extends App {
     }
   }
 
+  genericFunction("String value")
+  genericFunction(2)
+  genericFunction(2.2)
   genericFunction(2f)
+
 }
